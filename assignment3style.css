@@ -1,0 +1,25 @@
+.redbg {
+    background-color: red;
+}
+
+.spanstyle {
+    color: white;
+}
+
+.specialp {
+    color: white;
+    background-color: #FF0000;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
