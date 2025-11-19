@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css" />
+
+     <link href="MySiteStyle.css" rel="stylesheet" type="text/css">
+
+       <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <header>
+  <h1>DILLON BOYER</h1>
+  </header>
+
+   <nav>
+  <ul>
+    <li><a href="#" target="_blank">MAIN</MAIN></a></li>
+    <li><a href="#" target="_blank">IMAGES</a></li>
+    <li><a href="#" target="_blank">PLAYLISTS</a></li>
+    <li><a href="#" target="_blank">SOCIAL</a></li>
+  </ul>
+   </nav>
+
+   <main>
+      <a href="Garage.png" data-fancybox="gallery" data-caption="Garage">
+</a>
+
+<a href="Johnny.png" data-fancybox="gallery" data-caption="Johnny">
+</a>
+
+<div class="f-carousel" id="myCarousel" >
+    <div class="f-carousel__slide"><img src="Garage.png"></div>
+    <div class="f-carousel__slide"><img src="Johnny.png"></div>
+</div>
+
+<script>
+  Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+
+const container = document.getElementById("myCarousel");
+    const options = {
+      // Your custom options
+    };
+    Carousel(container, options, { Arrows }).init();
+    </script>
+  
+  <p>Irure irony banh mi, gentrify letterpress aliqua chambray marfa portland ea messenger bag. Marfa vero portland, quis messenger bag artisan placeat aute proident +1 qui twee iphone. American apparel elit eiusmod, quinoa accusamus pariatur marfa. Esse shoreditch commodo, tofu mollit anim scenester. Cardigan 3 wolf moon in next level, nisi id farm-to-table you probably haven't heard of them aliqua art party brooklyn mcsweeney's stumptown williamsburg marfa. Fanny pack mlkshk, sapiente single-origin coffee dolore yr commodo vinyl. Adipisicing carles bicycle rights, assumenda organic portland blog commodo skateboard williamsburg. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eum voluptatem quasi facilis voluptatum adipisci architecto laborum beatae error commodi! Exercitationem neque nostrum in rem sunt aliquid numquam alias dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti ullam nihil nam obcaecati accusantium aliquid? Sequi quam dicta, aut commodi id ullam sed ducimus perferendis adipisci. Sequi, provident quaerat?</p>
+  </main>
+  </div>
+
+  <footer>
+  <h2>ALL WORKS COPYRIGHTED</h2><a href="https://instagram.com" target="_blank" class="bi bi-instagram"></a>
+</footer>
+</body>
+</html>
