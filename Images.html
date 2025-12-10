@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMAGES</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css" />
+
+     <link href="imagesstyle.css" rel="stylesheet" type="text/css">
+
+       <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+
+    <header>
+  <h1>DILLON BOYER</h1>
+  </header>
+
+   <nav>
+  <ul>
+    <li><a href="MySiteMain.html">MAIN</a></li>
+    <li><a href="Images.html">IMAGES</a></li>
+    <li><a href="#">PLAYLISTS</a></li>
+    <li><a href="Social.html">SOCIAL</a></li>
+  </ul>
+   </nav>
+
+    <main>
+        <h2>IMAGES</h2>
+         <a href="Garage.png" data-fancybox="gallery" data-caption="Garage">
+</a>
+
+<a href="Johnny.png" data-fancybox="gallery" data-caption="Johnny">
+</a>
+
+<a href="Kenai Drawing.png" data-fancybox="gallery" data-caption="Kenai">
+</a>
+
+<a href="Wasteland.png" data-fancybox="gallery" data-caption="Wasteland">
+</a>
+
+<a href="Peoria.png" data-fancybox="gallery" data-caption="Peoria">
+</a>
+
+<a href="Dymond.png" data-fancybox="gallery" data-caption="Dymond">
+</a>
+
+<div class="f-carousel" id="myCarousel" >
+    <div class="f-carousel__slide"><img src="Garage.png"></div>
+    <div class="f-carousel__slide"><img src="Johnny.png"></div>
+    <div class="f-carousel__slide"><img src="Kenai Drawing.png"></div>
+    <div class="f-carousel__slide"><img src="Wasteland.png"></div>
+    <div class="f-carousel__slide"><img src="Peoria.png"></div>
+    <div class="f-carousel__slide"><img src="Dymond.png"></div>
+</div>
+
+<script>
+  Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+
+const container = document.getElementById("myCarousel");
+    const options = {
+      // Your custom options
+    };
+    Carousel(container, options, { Arrows }).init();
+    </script>
+    </div>
+
+    <footer><p>Copyright Illinois State University</p></footer>
+
+  </main>
+</body>
+</html>
